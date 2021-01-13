@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+#header {text-align: right;
+         padding-top: 16px;
+         padding-right: 32px;
+         font-family: 'Roboto', sans-serif;
+         font-size: 13px;
+         color: #464646}
+
+#header span {padding-left: 16px;}
+
+#header a {text-decoration: none;}
+
+#header a:hover {text-decoration: underline;
+                 cursor:pointer;}
+
+#advancedheader a {text-decoration: none;}
+
+#advancedheader a:hover {text-decoration: underline;
+                         cursor:pointer;}
+
+#advancedHeader {padding-top: 16px;
+                 padding-right: 32px;
+                 font-family: 'Roboto', sans-serif;
+                 font-size: 13px;
+                 width: 100%;
+                 height: 60px;
+                 background: #f1f1f1;}
+                 
+#advancedTitle {font-size: 24px;
+                font-weight: bold;
+                text-align: left;
+                padding-left: 24px;}
+
+#advancedLink {float:right}
+
+#container {margin-top: 64px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;}
+
+#container  div {font-size: 24px;
+                 margin: 16px;
+                 width: 584px;
+                 text-align: center;}
+
+#titulo   {font-family:'Roboto', sans-serif;
+           font-size:72px;
+           font-weight: bold;
+           text-align: center;
+           margin-bottom: 0;
+           padding-bottom: 16px;
+           }
+
+#titulo > span {margin-left: -16px;
+                padding: 0;}
+
+#subtitulo {text-align: center;
+            font-family:'Roboto', sans-serif;
+            font-size:16px;
+            color: #4285f4;
+            position: relative;
+            padding-bottom: 16px;
+            left: 96px;
+            margin-top:-40px;}
+ 
+#tituloadvanced {padding-top: 24px;
+                 padding-left: 32px;
+                 text-align: left;
+                 color: #d93025;
+                 font-size: 20px;
+                 height: 80px;
+                 border-bottom: 1px solid #ebebeb;}
+
+.azul {color:dodgerblue}
+.amarillo {color:goldenrod}
+.rojo {color:crimson}
+.verde {color:green}
+
+#lupa {color: gray;
+       text-align: left;
+       font-size: 16px;
+       padding:0;
+       margin-left: -16px;}
+
+.grid {display: grid;
+       padding: 16px;
+       grid-column-gap: 0px;
+       grid-row-gap: 8px;
+       grid-template-columns: 12% auto auto;
+align-items: center;}      
+
+.grid-item {background-color: white;
+            font-family: arial,sans-serif;
+            font-size: 12px;
+            padding: 8px;
+            text-align: left;}
+     
+#texttosearch {width: 100%;
+               border: 1px solid #B7BDC8;
+               box-shadow: none;
+               box-sizing: border-box;
+               border-radius: 22px;
+               height: 44px;
+               padding-left: 24px;
+               cursor: text;
+               outline: none;}
+
+input[type="text"] {border: none;
+                    width: 90%;
+                    outline: none;
+                    margin-top: 2px;
+                    font-size:16px;
+                    font-weight: lighter;}
+
+input[type="submit"] {background-color: #f8f9fa;
+                      border: 1px solid #f8f9fa;
+                      border-radius: 4px;
+                      color: #3c4043;
+                      font-family: arial,sans-serif;
+                      font-size: 14px;
+                      margin: 11px 4px;
+                      padding: 0 16px;
+                      line-height: 27px;
+                      height: 36px;
+                      min-width: 54px;
+                      text-align: center;
+                      cursor: pointer;}
+
+input[type="submit"]:hover {cursor:pointer}
+
+.grid-item input {border-radius: 1px;
+                  border: 1px solid #d9d9d9;
+                  border-top: 1px solid #c0c0c0;
+                  font-size: 13px;
+                  height: 25px;
+                  padding: 1px 8px;
+                  cursor: text;}
+
+.grid-item input[type="text"] {width: 100%;}
+
+.grid-item input[type="submit"] {height: 30px;
+                                  min-width: 120px;
+                                  float: right;
+                                  margin-top: 10px;
+                                  padding: 0 12px;
+                                  box-shadow: none;
+                                  background-color: #4d90fe;
+                                  border: 1px solid #3079ed;
+                                  border-radius: 2px;
+                                  font-family: arial,sans-serif;
+                                  font-size: 11px;
+                                  font-weight: bold;
+                                  text-align: center;
+                                  cursor: pointer;
+                                  color: #fff; }
